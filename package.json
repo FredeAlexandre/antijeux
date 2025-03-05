@@ -1,0 +1,17 @@
+{
+  "name": "antijeux",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "debug": "bun run src/debug.ts",
+    "compile": "bun build ./src/index.ts --windows-icon=icon.ico --compile --outfile antijeux"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
